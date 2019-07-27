@@ -7,7 +7,7 @@ def reformat_languages(languages)
       new_hash[language] = type
       new_hash[language][:style] = []
       new_hash[language][:style] << style
-
+  #this fails with javascript since it's both oo and functional. need to figure out how to add both styles to the array hash value
     end
     
   end
